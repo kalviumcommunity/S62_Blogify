@@ -1,7 +1,7 @@
 {
   "name": "s62_blogify",
   "version": "1.0.0",
-  "description": "",
+  "description": "ASAP project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
