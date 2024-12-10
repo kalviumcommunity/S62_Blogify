@@ -3,7 +3,7 @@ const app = express();
 
 // Define the /ping route
 app.get('/ping', (req, res) => {
-  res.send('hi'); // Respond with 'pong'
+  res.send('hi'); 
 });
 
 // Start the server
