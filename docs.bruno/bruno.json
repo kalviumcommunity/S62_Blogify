@@ -1,0 +1,10 @@
+{
+    "version": "1",
+    "name":"Blogify",
+    "type":"collection",
+    "ignore":[
+        "node_modules",
+        ".git"
+    ]
+
+}
