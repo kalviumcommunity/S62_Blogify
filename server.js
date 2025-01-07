@@ -1,16 +1,29 @@
+if (process.env.NODE_ENV !== 'PRODUCTION') {
+  require('dotenv').config();
+}
 const express = require('express');
+const connectDatabase = require('./DB/db.js');
+
+const mongoose = require('mongoose')
+
 const app = express();
-const connectDatabase= require('./DB/db');
+const port = process.env.PORT || 3000;
 
 
-const PORT = 8080;
-// Define the /ping route
+
 app.get('/', (req, res) => {
-  res.send('hi'); 
+  // Check the connection status
+  const dbStatus = mongoose.connection.readyState === 1 ? 'Connected' : 'Not Connected';
+
+  // Send the status as a response
+  res.send(`Database Connection Status: ${dbStatus}`);
 });
 
-// Start the server
-app.listen(PORT,async () => {
-  connectDatabase();
-  console.log('Server is running on http://localhost:8080');
+app.get('/ping',(request ,response)=>{
+    response.send('Hello World!');
+});
+
+app.listen(port,()=>{
+    connectDatabase();
+    console.log(`Your server is running on http://localhost:${port}`);
 });
