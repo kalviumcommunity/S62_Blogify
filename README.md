@@ -1,8 +1,11 @@
-# React + Vite
+Project Title - Blogify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview - A place where ideas flow and stories grow, Blogify allow users to unleash their creativity to the world and inspire millions of people with their words. This app caters to both casual writers and professional bloggers, kids and adults , offering a seamless way to create, manage, and promote content. Whether users aim to document their personal journeys, educate readers, or establish their expertise in a specific domain, a well-crafted blogging app becomes their digital canvas.
 
-Currently, two official plugins are available:
+Key Features :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Login Signup Publishing and writing a blog Viewing the blogs Tech Stack - MERN (MongoDB , express , ReactJs and NodeJS)
+
+Why this Project - I personally chose this project being an avid reader and writer myself. I feel apps like this in the future can help remote writers grow and publicize their thoughts and words to the wo rld.
+
+Deployement link https://s62-blogify.onrender.com
