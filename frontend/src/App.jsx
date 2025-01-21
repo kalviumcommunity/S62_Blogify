@@ -1,5 +1,13 @@
-function App() {
-  return <h1>Landing Page for react app ASAP</h1>;
-}
+import React from 'react';
+import BlogCard from './comp/blogcard/blogcard';
+
+const App = () => {
+  return (
+    <div>
+      <BlogCard />
+    </div>
+  );
+};
 
 export default App;
+
