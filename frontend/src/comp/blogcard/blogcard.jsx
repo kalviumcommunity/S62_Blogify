@@ -1,5 +1,5 @@
 import React from 'react';
-import './BlogCard.css'; 
+import './blogCard.css'; 
 
 const BlogCard = () => {
  
